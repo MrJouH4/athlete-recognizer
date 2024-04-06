@@ -1,6 +1,8 @@
 # Athlete Recognizer app
 This project is a web application designed for athlete recognition using machine learning models and deployed using Flask framework. The application currently supports the identification of the following athletes:
 
+![Website snapshot](/ui/images/ui_snapshot.png "website snapshot")
+
 - Lionel Messi
 - Maria Sharapova
 - Roger Federer
@@ -10,6 +12,9 @@ This project is a web application designed for athlete recognition using machine
 ## Overview
 
 The application implements logistic regression, support vector machine (SVM), and random forest classifiers. These models were trained using grid search cross-validation after data cleaning and wrangling processes. After evaluation, the logistic regression model was selected, achieving an accuracy of 0.909 for test data.
+
+![91% Accuracy](/model/test_accuracy.png "test accuracy")
+![Confusion Matrix](/model/confussion_matrix.png "confussion matrix")
 
 ## Installation
 
