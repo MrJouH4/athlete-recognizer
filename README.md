@@ -1,5 +1,5 @@
 # Athlete Recognizer app
-This project is a web application designed for athlete recognition using machine learning models. The application currently supports the identification of the following athletes:
+This project is a web application designed for athlete recognition using machine learning models and deployed using Flask framework. The application currently supports the identification of the following athletes:
 
 - Lionel Messi
 - Maria Sharapova
